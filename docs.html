@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN" data-project="evidence-learning" data-docs="true"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>evidence-learning · 使用文档</title><link rel="stylesheet" href="assets/system.css"><link rel="stylesheet" href="assets/ui/cards.css"><link rel="stylesheet" href="assets/motion/motion.css"><link rel="stylesheet" href="assets/layout/layout.css"><link rel="stylesheet" href="assets/page.css"><!-- <html lang="en" data-radius="sharp">; keep this <style> after the links: layout.css resets --ly-scale -->
+<style>
+:root {
+  --p-bg: #fafaf8; --p-surface: #eeefea; --p-ink: #20241e; --p-muted: #57604f;
+  --p-accent: #365b3b; --p-accent-ink: #fafaf8; --p-action: #365b3b; --p-action-ink: #fafaf8;
+  --p-inv-bg: #20241e; --p-inv-surface: #2d302b; --p-inv-ink: #fafaf8; --p-inv-muted: #9fa19d;
+  --p-inv-accent: #fafaf8; --p-inv-accent-ink: #20241e; --p-inv-action: #fafaf8; --p-inv-action-ink: #20241e;
+  --font-display: "Host Grotesk", system-ui, sans-serif;
+  --font-text: "Host Grotesk", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --display-weight: 500;
+  --display-tracking: -0.035em;
+  --display-tracking-xl: -0.04em;
+}
+</style><style>html[data-theme="light"]{--p-bg:#fafaf8;--p-surface:#eeefea;--p-ink:#20241e;--p-muted:#57604f;--p-accent:#365b3b;--p-accent-ink:#ffffff;--p-action:#365b3b;--p-action-ink:#ffffff;color-scheme:light}html[data-theme="dark"]{--p-bg:#131517;--p-surface:#202427;--p-ink:#f0f1f2;--p-muted:#b5bbc1;--p-accent:#b0cea2;--p-accent-ink:#131517;--p-action:#b0cea2;--p-action-ink:#131517;color-scheme:dark}</style><script src="assets/theme.js"></script><link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/docs.css"></head><body class="docs-page">
+<header class="nav"><div class="wrap nav__bar"><a class="skip-link" href="#docs-content">跳到正文</a><a class="nav__logo" href="index.html#top">Evidence Learning</a><nav class="nav__links" aria-label="章节导航"><div class="nav__item"><a class="nav__link" href="index.html#work">项目内容</a></div><div class="nav__item"><a class="nav__link" href="docs.html">使用文档</a></div></nav><div class="nav__actions"><a class="btn btn--primary" href="https://github.com/tangyixiao/evidence-learning/blob/main/SKILL.md">查看技能</a><button class="theme-toggle" type="button" data-theme-toggle aria-label="切换深浅色" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button></div><button class="nav__toggle" type="button" aria-expanded="false" aria-label="菜单"><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 5h14M2 13h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button></div></header>
+<main class="docs-shell wrap" id="top">
+<aside class="docs-sidebar" aria-label="文档导航">
+<a class="docs-home" href="index.html">← 返回项目首页</a>
+<details class="docs-toc" open><summary>README 目录</summary><nav aria-label="README 目录"><ol><li class="docs-level-1"><a href="#evidence-learning--用实践证据改进学习">Evidence Learning · 用实践证据改进学习</a></li><li class="docs-level-2"><a href="#从哪里开始">从哪里开始</a></li><li class="docs-level-2"><a href="#今天可以这样用">今天可以这样用</a></li><li class="docs-level-2"><a href="#现在与将来怎么区分">现在与将来怎么区分</a></li><li class="docs-level-2"><a href="#安装与调用">安装与调用</a></li><li class="docs-level-2"><a href="#维护方式">维护方式</a></li></ol></nav></details>
+<div class="docs-resources"><p>源仓库资料</p><ul><li><a href="https://github.com/tangyixiao/evidence-learning/blob/f24569bd50df8b89d7c84b1bbbe4bde284a99db8/README.md">原始 README</a></li><li><a href="https://github.com/tangyixiao/evidence-learning/blob/f24569bd50df8b89d7c84b1bbbe4bde284a99db8/LICENSE">LICENSE</a></li></ul></div>
+</aside>
+<div class="docs-main"><header class="docs-heading"><p class="docs-eyebrow">项目文档 · tangyixiao/evidence-learning</p>
+<h1>evidence-learning 使用文档</h1><p>以下正文来自源仓库 README。图片以原图链接保留。</p>
+<div class="docs-source"><a href="https://github.com/tangyixiao/evidence-learning/blob/f24569bd50df8b89d7c84b1bbbe4bde284a99db8/README.md">在 GitHub 阅读原文</a><span>来源版本：<code>f24569bd50df</code></span></div></header>
+<article class="docs-markdown" id="docs-content" tabindex="-1"><h1 id="evidence-learning--用实践证据改进学习">Evidence Learning · 用实践证据改进学习</h1>
+<p>一套面向高中学习、信息学竞赛和 AI 辅助学习的方法手册，以及可以安装的 <code>evidence-learning</code> skill。</p>
+<p>教学时先用教材备课，再按学生真实回答在引导发现、直接讲透、独立考核之间切换。讲清困难怎样出现、观察到了什么、为什么能据此优化；自然语言不只是给教材换一种口语说法。</p>
+<p>需要课堂对话时，可让不同人声的虚拟同学提出疑问、尝试或预测，再由教师接着演示；明确这是示范对话，不把角色台词当成真实学生的能力证据。</p>
+<p>从一个真实卡点开始，选择合适的讲解与练习，独立完成，再在之后检查是否仍然会用。学习时长、资料数量和当堂熟悉感可以记录，但不能代替这些证据。</p>
+<p>本项目由个人学习资料中的方法整理而来，初版日期为 <strong>2026-10-14（Asia/Shanghai）</strong>。它公开可复用的流程，不公开个人训练档案。当前版本说明了采用哪些规则，尚无足够的个人长期对照数据证明整套方法有效，也不承诺提分。</p>
+<h2 id="从哪里开始">从哪里开始</h2>
+<table>
+<thead>
+<tr>
+<th>你的需要</th>
+<th>阅读入口</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>开始持续私教，改进讲解、讲稿或教学视频</td>
+<td><a href="https://github.com/tangyixiao/evidence-learning/blob/f24569bd50df8b89d7c84b1bbbe4bde284a99db8/references/adaptive-teaching.md">自适应教学与自然语言</a></td>
+</tr>
+<tr>
+<td>了解目前的方法和它们的实施状态</td>
+<td><a href="https://github.com/tangyixiao/evidence-learning/blob/f24569bd50df8b89d7c84b1bbbe4bde284a99db8/references/current-methods.md">当前学习方法</a></td>
+</tr>
+<tr>
+<td>规划高中后续阶段，选择准备尝试的方法</td>
+<td><a href="https://github.com/tangyixiao/evidence-learning/blob/f24569bd50df8b89d7c84b1bbbe4bde284a99db8/references/future-methods.md">未来学习与方法试验</a></td>
+</tr>
+<tr>
+<td>避免把听懂记成掌握，判断方法有无帮助</td>
+<td><a href="https://github.com/tangyixiao/evidence-learning/blob/f24569bd50df8b89d7c84b1bbbe4bde284a99db8/references/evidence.md">能力证据与指标</a></td>
+</tr>
+<tr>
+<td>让 AI 辅助讲解、提示、批改和接续</td>
+<td><a href="https://github.com/tangyixiao/evidence-learning/blob/f24569bd50df8b89d7c84b1bbbe4bde284a99db8/SKILL.md">Skill 入口</a></td>
+</tr>
+<tr>
+<td>按平盖尔材料选具体做法或追溯某期视频</td>
+<td><a href="https://github.com/tangyixiao/evidence-learning/blob/f24569bd50df8b89d7c84b1bbbe4bde284a99db8/references/pingaier-methods.md">方法入口</a>、<a href="https://github.com/tangyixiao/evidence-learning/blob/f24569bd50df8b89d7c84b1bbbe4bde284a99db8/references/pingaier-method-library.md">完整方法库</a>、<a href="https://github.com/tangyixiao/evidence-learning/blob/f24569bd50df8b89d7c84b1bbbe4bde284a99db8/references/pingaier-corpus.md">149条材料索引</a></td>
+</tr>
+<tr>
+<td>查研究依据和适用边界</td>
+<td><a href="https://github.com/tangyixiao/evidence-learning/blob/f24569bd50df8b89d7c84b1bbbe4bde284a99db8/references/sources.md">来源与证据边界</a></td>
+</tr>
+<tr>
+<td>直接开始记录</td>
+<td><a href="https://github.com/tangyixiao/evidence-learning/blob/f24569bd50df8b89d7c84b1bbbe4bde284a99db8/assets/session.md">学习记录模板</a>、<a href="https://github.com/tangyixiao/evidence-learning/blob/f24569bd50df8b89d7c84b1bbbe4bde284a99db8/assets/handoff.md">接续模板</a>、<a href="https://github.com/tangyixiao/evidence-learning/blob/f24569bd50df8b89d7c84b1bbbe4bde284a99db8/assets/experiment.md">方法试验模板</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="今天可以这样用">今天可以这样用</h2>
+<ol>
+<li>选一个自己确实不会或做不稳的问题，写清本次目标，例如“解释这个公式的条件，并独立完成一个变式”。</li>
+<li>判断卡点。没学过就先用一个清楚范例建立概念；已有基础就先尝试，再按需请求提示。</li>
+<li>根据本次目标安排自己解释、完整应用或实现；检验独立能力时关掉参考，核对答案、边界和依据。用了帮助就如实记录。未完成全部验证不等于禁止继续学习。</li>
+<li>只留下错误原因、检验结果和下次起点；独立完成后按需要安排延迟复测。</li>
+</ol>
+<p>只需要十分钟时，就缩小任务。学校课程、作业、休息和老师当天要求先进入同一份时间预算。不要额外叠加本项目的整套流程。</p>
+<h2 id="现在与将来怎么区分">现在与将来怎么区分</h2>
+<ul>
+<li><strong>当前规则</strong>：已经写入学习安排、教练约定或接续流程的方法；实际执行和效果仍须分别记录。</li>
+<li><strong>个人偏好</strong>：例如较长可用时段内上午、下午各集中一个专题。其他人可以调整，不是普遍最优方案。</li>
+<li><strong>未来候选</strong>：有使用条件和检验办法，尚未确认采用或有效；按需要选择一种小规模尝试。</li>
+<li><strong>能力结果</strong>：只由真实独立表现、延迟复测与变式证据支持，不从方法是否写进计划反推。</li>
+</ul>
+<h2 id="安装与调用">安装与调用</h2>
+<p>仓库根目录就是一个完整的 skill，包含 <code>SKILL.md</code>、<code>references</code>、<code>assets</code> 和 <code>agents</code>。下载或克隆后，将该目录作为 <code>evidence-learning</code> 放入所用工具的用户 skill 目录，保留配套文件。例如本机 Codex 的常见位置为 <code>~/.codex/skills/evidence-learning</code>；实际以工具配置为准。请勿把嵌套 <code>.git</code> 目录同步进个人 skill 合集。</p>
+<p>发现该 skill 后，可以这样请求：</p>
+<pre><code class="language-text">使用 $evidence-learning，按我的教材开始教学。
+先检查必要前置；有思路就引导我推，没有基础就直接示范。
+讲清为什么想到这一步，按完整问题推进，不要连续追问零碎填空。
+</code></pre>
+<pre><code class="language-text">使用 $evidence-learning，根据我已有的学习记录安排下一个学习块。
+我今天只有 40 分钟，先判断卡点，只给第一层提示。
+</code></pre>
+<pre><code class="language-text">使用 $evidence-learning，帮我比较最近几次无提示复测。
+不要把看过题解的旧题计入陌生题正确率，最后给出一个可验证的调整。
+</code></pre>
+<pre><code class="language-text">使用 $evidence-learning，为高中下一阶段提出一个两周方法试验。
+区分已有流程与未来候选，并把文化课、信奥、休息放在同一份预算中。
+</code></pre>
+<p>Skill 可自行完成方法诊断、学习块设计、记录与复盘；不依赖其他 skill、私人资料库、固定盘符或某个 AI 服务。具体题目的知识结论仍须按教材、题面或可靠资料核对。</p>
+<h2 id="维护方式">维护方式</h2>
+<p>按“提出具体问题 → 核对资料 → 小范围尝试 → 留下无辅助表现 → 决定保留、调整或停止”更新方法。新增研究写明对象、结果与边界；个人尝试不写成因果证明。没有正在运行的自动更新、抓取或提醒任务。</p>
+<p>适合贡献：更清楚的使用条件、可复用模板、指出错误的来源和匿名的真实试验。请勿提交学校内部材料、个人成绩档案、完整题包、第三方文稿或账号凭据。</p>
+<p>项目自写的方法说明、skill 和模板采用 <a href="https://github.com/tangyixiao/evidence-learning/blob/f24569bd50df8b89d7c84b1bbbe4bde284a99db8/LICENSE">MIT License</a>。引用的论文、网页与创作者作品仍归原权利人；链接和原创摘要不表示本项目重新许可这些作品。</p>
+</article>
+</div></main><footer class="docs-footer wrap"><a href="index.html">返回首页</a><a href="https://github.com/tangyixiao/evidence-learning">GitHub 源仓库</a></footer>
+<script type="module" src="assets/system.js"></script></body></html>
