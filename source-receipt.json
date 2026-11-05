@@ -2,10 +2,33 @@
   "repo": "tangyixiao/evidence-learning",
   "sourceBranch": "main",
   "sourceCommit": "f24569bd50df8b89d7c84b1bbbe4bde284a99db8",
+  "designVersion": 3,
+  "direction": {
+    "visualConcept": "雾紫、苔灰与深梅色的学习观察手册：由“材料→真实作答→解释选择→延迟复测”四张不同尺寸的证据页构成首屏，留出像研究笔记般的侧栏。视觉安静但有明确层次，不做销售课程大横幅。事实边界：公开方法与 skill，不公开个人档案，也不承诺提分或声称整套流程已有长期对照证明。",
+    "layout": "editorial",
+    "palette": {
+      "light": {
+        "bg": "#E4DEEA",
+        "surface": "#F2EBEF",
+        "ink": "#3B3045",
+        "muted": "#6b5e73",
+        "accent": "#70507f"
+      },
+      "dark": {
+        "bg": "#211B29",
+        "surface": "#33283E",
+        "ink": "#EDE6F3",
+        "muted": "#b8a8c5",
+        "accent": "#c5a5db"
+      }
+    },
+    "threeConcept": "Three.js 建立紫灰布脊的四页证据活页环，每页仅对应一种公开流程阶段；活页可独立翻起，纸厚与连接环提供3D，不制作虚假脑模型或成绩增长曲线。",
+    "distinctiveInteraction": "点某阶段翻到该页，显示该阶段需要何种真实证据、有哪些可选帮助；“延迟复测”只导航方法，不替访客生成计划或记录成绩。"
+  },
   "media": [],
   "skills": [
     "baoyu-design",
     "design-taste-frontend"
   ],
-  "design": "content-first source/product/photography; no rejected template or faux 3D"
+  "flagshipModel": null
 }
