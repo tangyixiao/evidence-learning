@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "description": "Start with a real sticking point in a school subject or informatics problem, record the help used and check later with a variation or delayed retest."
+  },
+  "pages": {
+    "home": {
+      "title": "Plan the next session from one independent attempt · {project}"
+    },
+    "features": {
+      "title": "Features · {project}",
+      "description": "Start with a real sticking point in a school subject or informatics problem, record the help used and check later with a variation or delayed retest."
+    },
+    "download": {
+      "title": "Get started · {project}",
+      "description": "Set a concrete goal, such as explaining when a formula applies and independently solving a variation."
+    },
+    "community": {
+      "title": "Community · {project}",
+      "description": "Find usage guidance, follow discussions and review changes to this project."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "download": "Get started",
+    "community": "Community"
+  },
+  "ui": {
+    "skip_link": "Skip to main content",
+    "navigation": "Main navigation",
+    "open_navigation": "Open navigation",
+    "close_navigation": "Close navigation",
+    "language": "Choose language",
+    "theme": "Choose theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "platforms": "Supported platforms",
+    "github": "GitHub",
+    "view_image": "View full illustration",
+    "feature_more": "Explore features",
+    "download": "Open the session template",
+    "release_notes": "Source repository",
+    "documentation": "Documentation",
+    "source": "Source repository",
+    "illustration": "First steps",
+    "license": "MIT"
+  },
+  "hero": {
+    "title": [
+      "Plan the next session from one independent attempt"
+    ],
+    "description": [
+      "Start with a real sticking point in a school subject or informatics problem, record the help used and check later with a variation or delayed retest."
+    ],
+    "primary_action": "Open the session template",
+    "secondary_action": "Explore features"
+  },
+  "preview": {
+    "caption": "First steps",
+    "tabs": [
+      {
+        "label": "Get started",
+        "icon": "book"
+      }
+    ],
+    "items": [
+      {
+        "title": "Pick one sticking point",
+        "description": "Set a concrete goal, such as explaining when a formula applies and independently solving a variation.",
+        "icon": "book"
+      },
+      {
+        "title": "Record the attempt",
+        "description": "Use the session template to record hints and the actual result. Schedule a later unaided attempt when useful.",
+        "icon": "link"
+      }
+    ]
+  },
+  "features": {
+    "title": "Project features",
+    "groups": [
+      {
+        "title": "Choose how to learn",
+        "description": "For an unfamiliar concept, start with a complete example. If you already have an approach, try it before asking for a hint.",
+        "detail": "",
+        "icon": "layers"
+      },
+      {
+        "title": "Keep a checkable record",
+        "description": "The templates capture the error, the result of a check and the next starting point. Separate new problems from previously seen ones.",
+        "detail": "",
+        "icon": "book"
+      }
+    ]
+  },
+  "getting_started": {
+    "title": "Get started · {project}",
+    "steps": [
+      {
+        "title": "Pick one sticking point",
+        "description": "Set a concrete goal, such as explaining when a formula applies and independently solving a variation.",
+        "icon": "book"
+      },
+      {
+        "title": "Record the attempt",
+        "description": "Use the session template to record hints and the actual result. Schedule a later unaided attempt when useful.",
+        "icon": "link"
+      }
+    ]
+  },
+  "community": {
+    "title": "Community · {project}",
+    "description": "Find usage guidance, follow discussions and review changes to this project.",
+    "links": [
+      {
+        "label": "Help and feedback",
+        "description": "Browse existing reports or describe a reproducible problem.",
+        "icon": "book"
+      },
+      {
+        "label": "Source repository",
+        "description": "Find the project and its maintenance links.",
+        "icon": "link"
+      },
+      {
+        "label": "Review changes",
+        "description": "Review open pull requests or prepare a contribution.",
+        "icon": "code"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "{copyright}"
+  }
+}
