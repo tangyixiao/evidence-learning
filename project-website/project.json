@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "name": "evidence-learning",
+  "theme": "system",
+  "default_locale": "zh-CN",
+  "locales": [
+    {
+      "code": "zh-CN",
+      "label": "简体中文",
+      "directory": ""
+    },
+    {
+      "code": "en",
+      "label": "English",
+      "directory": "en"
+    }
+  ],
+  "release": "evidence-learning",
+  "license_label": "MIT",
+  "links": {
+    "repository": "https://github.com/tangyixiao/evidence-learning",
+    "download": "https://github.com/tangyixiao/evidence-learning/blob/main/assets/session.md",
+    "documentation": "https://github.com/tangyixiao/evidence-learning/blob/main/references/adaptive-teaching.md",
+    "release": "https://github.com/tangyixiao/evidence-learning",
+    "license": "https://github.com/tangyixiao/evidence-learning/blob/main/LICENSE",
+    "report_issue": "https://github.com/tangyixiao/evidence-learning/issues",
+    "suggest_feature": "https://github.com/tangyixiao/evidence-learning",
+    "contribute": "https://github.com/tangyixiao/evidence-learning/pulls"
+  },
+  "copyright_notice": "Website template © 2026 Tang Yixiao and contributors",
+  "platforms": [
+    {
+      "name": "evidence-learning",
+      "href": "https://tangyixiao.github.io/evidence-learning/"
+    }
+  ]
+}
